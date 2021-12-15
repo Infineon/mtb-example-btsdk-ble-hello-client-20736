@@ -406,9 +406,9 @@ void hello_client_create(void)
     // Blecen default parameters.  Change if appropriate
     //blecen_cen_cfg.scan_type                = HCIULP_ACTIVE_SCAN;
     //blecen_cen_cfg.scan_adr_type            = HCIULP_PUBLIC_ADDRESS;
-    //blecen_cen_cfg.scan_filter_policy       = HCIULP_SCAN_FILTER_POLICY_WHITE_LIST_NOT_USED;
+    //blecen_cen_cfg.scan_filter_policy       = HCIULP_SCAN_FILTER_POLICY_ACCEPT_LIST_NOT_USED;
     //blecen_cen_cfg.filter_duplicates        = HCIULP_SCAN_DUPLICATE_FILTER_ON;
-    //blecen_cen_cfg.init_filter_policy       = HCIULP_INITIATOR_FILTER_POLICY_WHITE_LIST_NOT_USED;
+    //blecen_cen_cfg.init_filter_policy       = HCIULP_INITIATOR_FILTER_POLICY_ACCEPT_LIST_NOT_USED;
     //blecen_cen_cfg.init_addr_type           = HCIULP_PUBLIC_ADDRESS;
     //blecen_cen_cfg.high_scan_interval       = 96;       // slots
     //blecen_cen_cfg.low_scan_interval        = 2048;     // slots
